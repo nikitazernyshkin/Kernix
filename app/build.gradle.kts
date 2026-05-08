@@ -14,7 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.fomalhaut.kernix"
         minSdk = 29
-        targetSdk = 36
+        this.targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -39,7 +39,9 @@ android {
     }
 }
 
-dependencies {
+dependencies{
+    implementation(libs.api)
+    implementation(libs.shizuku.provider)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
