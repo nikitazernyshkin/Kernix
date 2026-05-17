@@ -24,7 +24,7 @@ A lightweight process manager and system utility for Android, powered by the Shi
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_PATH_HERE.png" alt="Kernix Interface" width="300"/>
+  <img src="app/src/main/res/Screenshots/screenshot.jpg" alt="Kernix Interface" width="300"/>
 </p>
 
 
