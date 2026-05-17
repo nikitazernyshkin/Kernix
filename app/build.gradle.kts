@@ -16,7 +16,7 @@ android {
         minSdk = 29
         this.targetSdk = 36
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -40,6 +40,7 @@ android {
 }
 
 dependencies{
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.api)
     implementation(libs.shizuku.provider)
     implementation(platform(libs.androidx.compose.bom))
